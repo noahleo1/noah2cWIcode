@@ -1,0 +1,39 @@
+body {
+    height: 1800px;
+    background-color: lightgrey;
+    position: relative;
+}
+
+.header {
+    background-color: white;
+    height: 100px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 1600px;
+    display: flex;
+}
+
+.insideheader {
+    position: relative;
+    width: 250px;
+    color: black;
+    text-align: center;
+    ;
+}
+
+a {
+    position: relative;
+    top: 40px;
+}
+
+.insideheader:hover {
+    background-color: darkgray;
+    position: static;
+    top: 0px;
+}
+
+#login {
+    position: relative;
+    left: 200px;
+}

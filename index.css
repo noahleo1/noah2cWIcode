@@ -1,0 +1,19 @@
+body{background-color:mediumpurple;
+   }
+.logo{position:absolute;
+left: 1380px;
+bottom: 596px;;
+height: 150px;
+}
+img{
+height:400px;
+}
+
+.upper{height: 50px;  
+    
+}
+#div1{font-size: 30px;
+    background-color: purple;
+}
+#div2{background-color: orchid;}
+#div3{background-color: rgb(25, 58, 24);}

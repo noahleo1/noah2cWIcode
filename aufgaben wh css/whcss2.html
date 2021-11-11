@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        .top {
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .left {
+            height: 30vh;
+            width: 30vh;
+            background-color: black;
+            position: relative;
+        }
+        
+        .insideleft {
+            background-color: orange;
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+            height: 30px;
+            width: 30px
+        }
+        
+        .insideright {
+            background-color: orange;
+            position: absolute;
+            bottom: 0px;
+            left: 0px;
+            height: 30px;
+            width: 30px
+        }
+        
+        .right {
+            height: 30vh;
+            width: 30vh;
+            position: relative;
+            background-color: black;
+        }
+        
+        .bottom {
+            height: 20vh;
+            width: 30vh;
+            background-color: green;
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+            border: solid;
+        }
+        
+        .insidebottom {
+            position: absolute;
+            right: 0px;
+            bottom: 0px;
+            background-color: white;
+            width: 50px;
+            height: 30px;
+        }
+    </style>
+    <div class="top">
+        <div class="left">
+            <div class="insideleft"></div>
+        </div>
+        <div class="right">
+            <div class="insideright"></div>
+        </div>
+    </div>
+    <div class="bottom">
+        <div class="insidebottom"></div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        .box {
+            background-color: brown;
+            height: 100px;
+        }
+        
+        .container {
+            display: grid;
+            grid-template-columns: 100%;
+            grid-auto-rows: minmax(100px auto);
+            row-gap: 1px;
+            column-gap: 1px;
+        }
+        
+        @media(min-width:600px) {
+            .container {
+                display: grid;
+                grid-template-columns: 33% 33% 33%;
+                grid-auto-rows: minmax(100px auto);
+                row-gap: 1px;
+                column-gap: 1px;
+            }
+            .box {
+                background-color: cornflowerblue;
+                height: 100px;
+            }
+        }
+    </style>
+    <div class="container">
+        <div class="box item1">eins</div>
+        <div class="box item2">zwei</div>
+        <div class="box item3">drei</div>
+        <div class="box item4">L rum dolorum illo dolor sequi expedita error quae, eaque hic commodi id?</div>
+        <div class="box item5">fünf</div>
+
+    </div>
+</body>
+
+</html>
