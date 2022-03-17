@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        let random=Math.random() *100;
+        randomround= Math.round(random)
+        console.log(randomround)
+        let random1=Math.random() *100;
+        randomround1= Math.round(random1)
+        console.log(randomround1)
+
+        if (random<random1 && random<50 ){
+            console.log("zahl 1 ist kleiner als zahl 2 und mini")  
+        }
+        if (random<30 || random1<30){
+            console.log("mind. eine der beiden ist kleiner als 30")
+        }
+        if (random<50 && random1 != 50){
+            console.log("die erste Zahl ist klein und die zweite ist nicht 50 ")
+        }
+    </script>
+</body>
+</html>
