@@ -24,7 +24,6 @@ function printMonth(amountOfDays, startDay) {
 
 
 
-
         if (day % 7 == 0) {
             console.log(days);
             days = '';
